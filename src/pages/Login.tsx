@@ -1,6 +1,6 @@
 function Login() {
   return (
-    <h1 className='text-center text-3xl font-bold text-blue-500'>Login</h1>
+    <h1 className='text-center my-40 text-3xl font-bold text-gray-500'>Login</h1>
   );
 }
 

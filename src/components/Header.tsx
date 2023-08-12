@@ -43,8 +43,10 @@ export default function Header() {
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center font-semibold pl-7">
             <NavLink className="mx-3 hover:text-gray-500 dark:hover:text-gray-300" to="/">Home</NavLink>
             <NavLink className="mx-3 hover:text-gray-500 dark:hover:text-gray-300" to="/about">About</NavLink>
+            <NavLink className="mx-3 hover:text-gray-500 dark:hover:text-gray-300" to="/login">Login</NavLink>
+            <NavLink className="mx-3 hover:text-gray-500 dark:hover:text-gray-300" to="/register">Register</NavLink>
           </nav>
-          <Link to='/login' className="px-4 py-2 mt-2 me-5 text-sm font-semibold text-white bg-primary-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-white md:mt-0 md:ml-4 hover:text-gray-900 dark:hover:text-gray-900 focus:text-gray-900 dark:focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+          <Link to='/admin' className="px-4 py-2 mt-2 me-5 text-sm font-semibold text-white bg-primary-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-white md:mt-0 md:ml-4 hover:text-gray-900 dark:hover:text-gray-900 focus:text-gray-900 dark:focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
             Get Started
           </Link>
 
