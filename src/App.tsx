@@ -1,11 +1,14 @@
-import { Routes, Route } from 'react-router-dom';
-import About from './pages/About';
-import AdminLayout from './layouts/AdminLayout';
-import Dashboard from './admin/Dashboard';
-import Home from './pages/Home';
-import Login from './pages/Login';
-import PagesLayout from './layouts/PagesLayout';
-import Register from './pages/Register';
+import AdminLayout from "./_layouts/AdminLayout";
+import PagesLayout from "./_layouts/PagesLayout";
+import Dashboard from "./admin/Dashboard";
+import RoleList from "./admin/roles/RoleList";
+import Settings from "./admin/settings/Settings";
+import UserList from "./admin/users/UserList";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
@@ -22,6 +25,9 @@ const App = () => {
         <Route element={<AdminLayout />}>
           <Route index element={<Dashboard />} />
           <Route path="/admin" element={<Dashboard />} />
+          <Route path="/admin/roles" element={<RoleList />} />
+          <Route path="/admin/users" element={<UserList />} />
+          <Route path="/admin/settings" element={<Settings />} />
         </Route>
       </Routes>
     </>

@@ -1,10 +1,10 @@
 function About() {
   return (
     <>
-      <section className="text-black body-font lg:pt-20">
-        <div className="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
-          <div className="flex flex-col w-full mb-2 text-left md:text-center ">
-            <h1 className="mb-2 text-6xl font-bold tracking-tighter text-black dark:text-white lg:text-8xl md:text-7xl">
+      <section className="body-font text-black lg:pt-20">
+        <div className="container mx-auto px-5 pt-32 lg:px-4 lg:py-4">
+          <div className="mb-2 flex w-full flex-col text-left md:text-center ">
+            <h1 className="mb-2 text-6xl font-bold tracking-tighter text-black dark:text-white md:text-7xl lg:text-8xl">
               <span>About Us</span>
             </h1>
             <br></br>

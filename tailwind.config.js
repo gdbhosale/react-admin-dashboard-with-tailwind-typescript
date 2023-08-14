@@ -8,13 +8,15 @@ module.exports = {
   darkMode: "class",
   theme: {
     colors: {
-      primary: colors.indigo,
-      white: colors.white,
       black: colors.black,
-      gray: colors.gray,
-      red: colors.red,
-      green: colors.green,
       blue: colors.blue,
+      gray: colors.gray,
+      green: colors.green,
+      indigo: colors.indigo,
+      primary: colors.indigo,
+      red: colors.red,
+      white: colors.white,
+      slate: colors.slate
     },
     extend: {},
   },

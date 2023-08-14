@@ -1,6 +1,7 @@
 {
   "cSpell.enabled": true,
-  "cSpell.words": ["Topbar"],
+  "cSpell.words": ["tailwindcss", "Topbar"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
@@ -9,5 +10,9 @@
   "git.mergeEditor": false,
   "tailwindCSS.includeLanguages": {
     "plaintext": "javascript"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrapColumn": 120
   }
 }
