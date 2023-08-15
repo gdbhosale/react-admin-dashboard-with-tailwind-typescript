@@ -6,7 +6,7 @@ const Topbar = ({ sidebarOpen, setSidebarOpen }: any) => {
   return (
     <div
       id="topbar"
-      className="flex h-16 w-full flex-row place-content-between border-b border-gray-200 dark:border-gray-900"
+      className="flex h-16 w-full flex-row place-content-between shadow-sm dark:shadow-lg border-b border-gray-200 dark:border-gray-900"
     >
       <button
         className="flex h-full w-16 flex-col place-content-center px-6 md:hidden"

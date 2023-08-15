@@ -45,7 +45,7 @@ const SideBar = ({ sidebarOpen, setSidebarOpen }: any) => {
 
       <div
         id="sidebar"
-        className={`absolute left-0 top-0 z-40 flex h-screen w-64 flex-col border-r border-gray-200 bg-gradient-to-bl from-[#eff2fd] to-[#f3e7fa] transition-all duration-200 ease-in-out dark:border-gray-900 dark:bg-gray-950 dark:from-gray-950 dark:to-gray-950 md:static md:left-auto md:top-auto md:w-72 md:translate-x-0 md:overflow-y-auto ${
+        className={`absolute left-0 top-0 z-40 flex h-screen w-64 flex-col border-r border-gray-200 bg-gradient-to-bl from-[#eff2fd] to-[#f3e7fa] transition-transform duration-200 ease-in-out dark:border-gray-900 dark:bg-gray-950 dark:from-gray-950 dark:to-gray-950 md:static md:left-auto md:top-auto md:w-72 md:translate-x-0 md:overflow-y-auto ${
           sidebarOpen ? "translate-x-0" : "-translate-x-72"
         }`}
       >
