@@ -6,7 +6,7 @@ const Topbar = ({ sidebarOpen, setSidebarOpen }: any) => {
   return (
     <div
       id="topbar"
-      className="flex h-16 w-full flex-row place-content-between shadow-sm dark:shadow-lg border-b border-gray-200 dark:border-gray-900"
+      className="flex h-16 w-full flex-row place-content-between border-b border-gray-200 shadow-sm dark:border-gray-900 dark:shadow-lg"
     >
       <button
         className="flex h-full w-16 flex-col place-content-center px-6 md:hidden"
@@ -34,7 +34,7 @@ const Topbar = ({ sidebarOpen, setSidebarOpen }: any) => {
           <input
             type="search"
             id="default-search"
-            className="block w-full appearance-none rounded-xl border-0 bg-white  p-3 pl-10 text-sm text-gray-800 placeholder:text-gray-500 focus:outline-none dark:bg-gray-900 dark:text-white dark:focus:bg-gray-800"
+            className="block w-full appearance-none rounded-xl border-0 bg-white  p-3 pl-10 text-sm text-gray-800 placeholder:text-gray-500 dark:bg-gray-900 dark:text-white dark:focus:bg-gray-800"
             placeholder="Find Something"
             required
           />

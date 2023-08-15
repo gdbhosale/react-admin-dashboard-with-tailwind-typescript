@@ -20,7 +20,7 @@ const DarkModeSwitch = () => {
               setColorMode("light");
             }
           }}
-          className="rounded-full text-gray-600 outline-none focus:outline-none"
+          className="rounded-full p-1 text-gray-600 outline-none focus:outline-none"
         >
           <span className="sr-only">Light Mode</span>
 
@@ -33,7 +33,7 @@ const DarkModeSwitch = () => {
               setColorMode("dark");
             }
           }}
-          className="rounded-full text-gray-400 outline-none focus:outline-none focus:ring-opacity-20 focus-visible:ring focus-visible:ring-gray-100"
+          className="rounded-full p-1 text-gray-400 outline-none focus:outline-none focus:ring-opacity-20 focus-visible:ring focus-visible:ring-gray-300"
         >
           <span className="sr-only">Dark Mode</span>
           <BsSun size="20" />

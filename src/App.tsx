@@ -3,6 +3,7 @@ import PagesLayout from "./_layouts/PagesLayout";
 import Dashboard from "./admin/Dashboard";
 import RoleList from "./admin/roles/RoleList";
 import Settings from "./admin/settings/Settings";
+import UserAdd from "./admin/users/UserAdd";
 import UserList from "./admin/users/UserList";
 import About from "./pages/About";
 import Home from "./pages/Home";
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/admin" element={<Dashboard />} />
           <Route path="/admin/roles" element={<RoleList />} />
           <Route path="/admin/users" element={<UserList />} />
+          <Route path="/admin/users/add" element={<UserAdd />} />
           <Route path="/admin/settings" element={<Settings />} />
         </Route>
       </Routes>
